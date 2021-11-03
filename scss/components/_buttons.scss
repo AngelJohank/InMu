@@ -9,6 +9,10 @@
     font-weight: $semi-bold;
     background-color: $purple;
 
+    &:active {
+        filter: brightness(1.2);
+    }
+
     &--primary {
         background-color: $red;
     }
