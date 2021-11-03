@@ -1,32 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-PE">
 
 <head>
+    <title>InMu | Compra Venta y Alquiler de Casas</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#ff6161" />
+        <!-- Style -->
     <link rel="icon" href="assets/icon.svg">
-    <link rel="stylesheet" href="style.css">
-    <title>InMu</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="header-left">
-            <img src="assets/logo.svg" alt="" class="header-logo">
-            <nav class="header-nav">
-                <li class="header-li"><a href="#">Nosotros</a></li>
-                <li class="header-li"><a href="#">Explora</a></li>
-                <li class="header-li"><a href="#">Contacto</a></li>
+    <header class="header">
+        <div class="header__left">
+            <img src="assets/logo.svg" alt="" class="header__logo">
+            <nav class="header__nav">
+                <ul class="header__ul">
+                    <li class="header__li"><a href="#" class="header__a">Nosotros</a></li>
+                    <li class="header__li"><a href="#explora" class="header__a">Explora</a></li>
+                    <li class="header__li"><a href="#" class="header__a">Compra</a></li>
+                    <li class="header__li"><a href="#" class="header__a">Alquila</a></li>
+                </ul>
             </nav>
         </div>
-        <div class="header-right">      
-            <div class="header-buttons">
-                <a href=""><button class="primary-button">Login</button></a>
-                <a href=""><button class="secondary-button">Sign in</button></a>
-            </div>
+        <div class="right">
+            <button class="header__button  button button--primary">Login</button>
+            <button class="header__button button button--secondary">Sign In</button>
         </div>
     </header>
+    <!-- Section for user control -->
+    <section class="cardSection" id="explora">
+        <div class="card">
+            <img src="assets/home.svg" alt="buy" class="card__img">
+            <div class="card__textContainer">
+                <h2 class="card__title">Busca tu Hogar</h2>
+                <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Asperiores aliquid animi quo voluptate similique accusantium provident totam itaque, minus fugiat quis ipsam facere et maiores temporibus hic corporis dolores culpa.</p>
+            </div>
+            <button class="button card__button">Comprar o Alquilar</button>
+        </div>
+        <div class="card">
+            <img src="assets/rent.svg" alt="buy" class="card__img">
+            <div class="card__textContainer">
+                <h2 class="card__title">Alquila</h2>
+                <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Asperiores aliquid animi quo voluptate similique accusantium provident totam itaque, minus fugiat quis ipsam facere et maiores temporibus hic corporis dolores culpa.</p>
+            </div>
+            <button class="button card__button">Alquilar</button>
+        </div>
+        <div class="card">
+            <img src="assets/sell.svg" alt="buy" class="card__img">
+            <div class="card__textContainer">
+                <h2 class="card__title">Vende</h2>
+                <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Asperiores aliquid animi quo voluptate similique accusantium provident totam itaque, minus fugiat quis ipsam facere et maiores temporibus hic corporis dolores culpa.</p>
+            </div>
+            <button class="button card__button">Vender</button>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+    </footer>
 </body>
 
 </html>

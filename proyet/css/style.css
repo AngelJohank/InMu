@@ -1,0 +1,134 @@
+.header {
+  padding: 10px 3%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.header__left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header__logo {
+  cursor: pointer;
+  height: 40px;
+}
+.header__nav {
+  margin-left: 30px;
+}
+.header__li {
+  list-style: none;
+  margin-left: 20px;
+  display: inline-block;
+}
+.header__a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2f2e41;
+  transition: color 0.2s;
+}
+.header__a:hover {
+  color: #ff6584;
+}
+.header__button {
+  transition: transform 0.3s;
+}
+.header__button:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  height: 40vh;
+  background-color: #2f2e41;
+  border-radius: 15vw 15vw 0 0;
+}
+
+.button {
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 10px;
+  min-width: 120px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  background-color: #6c63ff;
+}
+.button--primary {
+  background-color: #ff6161;
+}
+.button--secondary {
+  background-color: #3f3d56;
+}
+
+.cardSection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  min-height: calc(100vh - 60px);
+}
+
+.card {
+  margin: 10px;
+  width: 300px;
+  min-width: 100px;
+  min-height: 300px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 12px 10px 0 #ff6161;
+}
+.card__img {
+  object-fit: scale-down;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.card__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card__description {
+  text-align: justify;
+  margin: 0 10px 15px;
+}
+.card__button {
+  text-align: justify;
+  border-radius: 0;
+  margin: 0 10px 15px;
+  transition: border-radius 0.3s;
+}
+.card__button:hover {
+  border-radius: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #ff7474;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2f2e41;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
