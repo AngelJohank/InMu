@@ -98,7 +98,7 @@ footer {
   margin: 0 10px 15px;
 }
 .card__button {
-  text-align: justify;
+  text-align: center;
   border-radius: 0;
   margin: 0 10px 15px;
   transition: border-radius 0.3s;
