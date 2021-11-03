@@ -1,22 +1,21 @@
 // Variables
 
 $pink: #ff6584;
-$darkblue: #3f3d56;
+$darkblue: #2f2e41;
 $red: #ff6161;
 $purple: #6c63ff;
 $grey: #3f3d56;
-$black: #2f2e41;
+$black: #222;
 $pale-red: #ff7474;
 $white: white;
-$general-font-family: 'Roboto', sans-serif;
+
+// Font
+
+$general-font-family: 'Roboto',
+sans-serif;
 $thin: 100;
 $semi-bold: 600;
 $bold: 800;
-
-@import "components/header";
-@import "components/footer";
-@import "components/buttons";
-@import "components/cards";
 
 // General
 
@@ -46,3 +45,10 @@ body {
     background: $white;
     border-radius: 5px;
 }
+
+// Components
+
+@import "components/header";
+@import "components/footer";
+@import "components/buttons";
+@import "components/cards";
