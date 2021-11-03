@@ -40,8 +40,10 @@
   transform: scale(1.05);
 }
 
-footer {
+.footer {
   height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   background-color: #2f2e41;
   border-radius: 15vw 15vw 0 0;
 }
@@ -54,7 +56,7 @@ footer {
   border: none;
   border-radius: 20px;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   background-color: #6c63ff;
 }
 .button--primary {
@@ -76,13 +78,14 @@ footer {
 .card {
   margin: 10px;
   width: 300px;
-  min-width: 100px;
+  min-width: 200px;
   min-height: 300px;
   padding: 15px;
   display: flex;
   flex-direction: column;
   background-color: white;
   box-shadow: 12px 10px 0 #ff6161;
+  border-radius: 10px;
 }
 .card__img {
   object-fit: scale-down;
@@ -100,7 +103,7 @@ footer {
 .card__button {
   text-align: center;
   border-radius: 0;
-  margin: 0 10px 15px;
+  margin: 0 10px;
   transition: border-radius 0.3s;
 }
 .card__button:hover {
@@ -108,6 +111,7 @@ footer {
 }
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;

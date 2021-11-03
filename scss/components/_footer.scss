@@ -1,5 +1,7 @@
-footer {
+.footer {
     height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     background-color: $black;
     border-radius: 15vw 15vw 0 0;
 }
