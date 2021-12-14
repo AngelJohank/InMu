@@ -73,7 +73,6 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background-color: #2f2e41;
-  transition: border-radius 0.5s;
 }
 .footer::before {
   content: "";
